@@ -21,7 +21,7 @@ config(['$routeProvider', function($routeProvider){
 */
 (function(){
     'use strict';
-    angular.module('readingList',[])
+    angular.module('myApp',[])
 
     .controller('ReadingListController', function(){
         this.books = books;
